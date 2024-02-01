@@ -17,11 +17,10 @@ int main() {
     int boys[aray];
     int girls[aray];
     int combined[56];
-
     for (int i = 0; i < aray; ++i) {
         boys[i] = 2 * i + 1;
         girls[i] = 2 * (i + 1);
-        combined[i * 2] = boys[i];b
+        combined[i * 2] = boys[i];
         combined[i * 2 + 1] = girls[i];
     }
     Sparshva(combined, aray * 2);
