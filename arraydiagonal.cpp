@@ -38,6 +38,7 @@ int main()
     for (int i = 0; i < n; i++) 
     {
          sum=sum+arr[i][i];
+        
          
     }
      cout<<"Sum of elements in the main diagonal:-"<<sum<<endl;
