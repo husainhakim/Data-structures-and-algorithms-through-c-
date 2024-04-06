@@ -4,7 +4,7 @@ using namespace std;
 void teacher(float teares[5][10])
 {
     for(int i=0;i<5;i++)
-    {
+    {  
         cout<<"\nsubject "<<i+1;
         int failed=0;
         int passed=0;
